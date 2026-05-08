@@ -20,12 +20,9 @@ p {
     font-size: 16px;
     line-height: 1.5;
     color:#111111; 
-    /* font-style: italic;  */
-    /* background-color: #dcfcd9;  */
     padding:10px;
 }
 .highlight {
-    /* color: #495857; */
     font-weight: bold;
     background-color: #f3f29e;
     padding: 5px;
@@ -82,7 +79,6 @@ p {
     text-align: center;
     font-size: small;
     padding: 10px;
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
