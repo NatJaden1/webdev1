@@ -3,21 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us Form</title>
+    <title>Contact Us</title>
+
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
 
-    <div class="contact-form">
+<div class="container">
+    
+    <div class="left">
+        <h2>Get in Touch</h2>
+        <p>Have questions, feedback, or need support?</p>
+        <p>We’d love to hear from you. Fill out the form and we’ll respond as soon as possible.</p>
+        <p>support@example.com</p>
+        <p>+254 700 123 456</p>
+    </div>
+
+    <div class="right">
         <h2>Contact Us</h2>
         <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Enter subject">
+            </div>
+
+            <div class="input-group">
+                <label>Your Message</label>
+                <textarea rows="5" placeholder="Type your message..." required></textarea>
+            </div>
+
             <button type="submit">Send Message</button>
         </form>
     </div>
+
+</div>
 
 </body>
 </html>
